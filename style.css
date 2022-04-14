@@ -107,11 +107,22 @@ footer{
     display: hidden;
     transition-duration: 1000ms;
     transition-delay: 500ms;
+    transition-timing-function: ease-out;
 }
 #green:hover #hidden{
     
     
     opacity: 1;
+    
+}
+.fa-chevron-right{
+    transition-duration: 500ms;
+    transition-delay: 0.1s;
+    transition-timing-function: ease;
+    
+}
+#green:hover .fa-chevron-right{
+    transform: rotate(2880deg);
     
 }
 .logo{
